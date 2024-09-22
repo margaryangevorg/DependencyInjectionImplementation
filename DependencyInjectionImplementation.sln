@@ -3,9 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.10.35027.167
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DependencyInjection.Program", "DependencyInjection.Program\DependencyInjection.Program.csproj", "{48444D10-CE08-4599-B4E2-FAF46A664B79}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DependencyInjection.Program", "DependencyInjection.Program\DependencyInjection.Program.csproj", "{48444D10-CE08-4599-B4E2-FAF46A664B79}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DependencyInjection.Core", "DependencyInjection.Core\DependencyInjection.Core.csproj", "{BDC5206F-494E-4579-9FFF-502598E989D1}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DependencyInjection.Core", "DependencyInjection.Core\DependencyInjection.Core.csproj", "{BDC5206F-494E-4579-9FFF-502598E989D1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DependencyInjection.Test", "DependencyInjection.Test\DependencyInjection.Test.csproj", "{29C9E75E-4087-4DB5-AD6E-126F289506BB}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +23,10 @@ Global
 		{BDC5206F-494E-4579-9FFF-502598E989D1}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{BDC5206F-494E-4579-9FFF-502598E989D1}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{BDC5206F-494E-4579-9FFF-502598E989D1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{29C9E75E-4087-4DB5-AD6E-126F289506BB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{29C9E75E-4087-4DB5-AD6E-126F289506BB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{29C9E75E-4087-4DB5-AD6E-126F289506BB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{29C9E75E-4087-4DB5-AD6E-126F289506BB}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
